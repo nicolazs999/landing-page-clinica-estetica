@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Clarice Estética</title>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+    <header class="normal">
+        <div class="logo"><img src="img/logo.png"alt="logo"></div>
+        <div class="menu">
+            <a href="#sobre">Sobre</a>
+            <a href= "#servicos">Clinica</a>
+            <a href= "#servicos">Procedimentos</a>
+            <a href="#avaliacoes">Resultados</a>
+        </div>
+        <div class="agendar">
+            <button class="botao_agendar" href="https://wa.me/51986511991">Agende</button>
+            <button class="abrir-nav" id="botaoNav"><i class="fa-solid fa-bars" style="color: whitesmoke;"></i></button>
+        </div>
+    </header>
+    
+    <nav class="nav-bar" id="navBar">
+    <a href="#sobre"><span class="icon-text"><i class="fa fa-info-circle"></i><span class="nav-text">Sobre</span></span></a>
+    <a href="#servicos"><span class="icon-text"><i class="fa fa-cogs"></i><span class="nav-text">Procedimentos</span></span></a>
+    <a href="#avaliacoes"><span class="icon-text"><i class="fa fa-star"></i><span class="nav-text">Resultados</span></span></a>
+    <a href="#contatos"><span class="icon-text"><i class="fa fa-envelope"></i><span class="nav-text">Contatos</span></span></a>
+</nav>   
+        <div id="wpp">
+                <div>
+                    <img src="img/wpp 1.png" class="d-block w-100" alt="Imagem 1">
+                    <div class="container-bloco">
+                        <h1>ESTÉTICA AVANÇADA</h1>
+                        <hr>
+                        <p class="discount">AGENDE AGORA E DESTAQUE SUA BELEZA COM <b style="text-decoration: underline  black;"> 10% DE DESCONTO </b> NO SEU PRIMEIRO PROCEDIMENTO! </p>
+                        <a target="_blank" href="https://wa.me/51986511991" class="cta-button">
+                            <i class="fab fa-whatsapp" style="color: #695d4f;"></i>
+                            <h3>AGENDAR HORÁRIO</h3>
+                          </a>
+                      </div>
+                </div>
+        </div>
+        <div class="titulo">
+            <h1>Clínica</h1>
+        </div>
+        <div class="subtitle">
+            <p style="font-size: 22px; font-weight: bolder;">Conheça o local onde você será atendido(a)</p>
+          </div>
+        <div class="container">
+        <div class="servicos" id="servicos">
+            <div class="row">
+                <div class="col">
+                    <div class="servico-item">
+                        <img src="img/clinica 1.png" alt="Cabelo">
+                        <div class="titulo-servico">Rejuvenescedor</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="servico-item">
+                        <img src="img/clinica 2.png" alt="Sobrancelha">
+                        <div class="titulo-servico">Moderno</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="servico-item">
+                        <img src="img/clinica 3.png" alt="Barba">
+                        <div class="titulo-servico">Acolhedor</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="servico-item">
+                        <img src="img/clinica 4.jpg" alt="Esfoliação">
+                        <div class="titulo-servico">Convidativo</div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="footer-clinica">
+                <p style="font-size: 22px;">Vila Bom Princípio, Cachoeirinha, RS Av. Gen. Flores da Cunha, 1892 - Salão 301,</p>
+                <a target="_blank" href="https://www.google.com.br/maps/dir//Av.+Gen.+Flores+da+Cunha,+1891+-+Vila+Bom+Principio,+Cachoeirinha+-+RS,+94910-003/@-29.946041,-51.1190288,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x951973fd88d992ad:0xa2f52412e153aaba!2m2!1d-51.0958363!2d-29.9490909?entry=ttu" class="route-button">TRAÇAR UMA ROTA</a>
+              </div>
+        </div>
+    </div>
+
+
+    <section class="sobre" id="sobre">
+        <img src="img/clarice.png" alt="" class="img-sobre">
+        <div class="text-sobre">
+            <h2 class="h2-sobre">Sobre Mim</h2>
+            <p class="p-sobre">Me formei em Estética e Cosmética pela ULBRA Canoas em 2021.</p>
+            <p class="p-sobre">Trabalho na área da beleza há 25 anos, trazendo toda minha experiência e paixão para cada cliente.</p>
+            <p class="p-sobre">Meu objetivo é realçar a beleza com naturalidade e gerenciar o processo do envelhecimento, melhorando a autoestima e motivando o meu paciente para o autocuidado.</p>
+        </div>
+    </section>
+    <div class="titulo">
+        <h1>Serviços</h1>
+    </div> 
+    <div class="container">
+    <div class="servicos" id="servicos">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="servico-item">
+                    <img src="img/cabelo 100.jpg" alt="Cabelo">
+                    <div class="titulo-servico">Cabelo</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="servico-item">
+                    <img src="img/sobrancelha.png" alt="Sobrancelha">
+                    <div class="titulo-servico">Sobrancelha</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="servico-item">
+                    <img src="img/barba.jpg" alt="Barba">
+                    <div class="titulo-servico">Barba</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="servico-item">
+                    <img src="img/esfoliacao.jpeg" alt="Esfoliação">
+                    <div class="titulo-servico">Esfoliação</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="servico-item">
+                    <img src="img/esfoliacao.jpeg" alt="Esfoliação">
+                    <div class="titulo-servico">Esfoliação</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="servico-item">
+                    <img src="img/esfoliacao.jpeg" alt="Esfoliação">
+                    <div class="titulo-servico">Esfoliação</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="servico-item">
+                    <img src="img/esfoliacao.jpeg" alt="Esfoliação">
+                    <div class="titulo-servico">Esfoliação</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <section class="servicos" id="resultados" style="background-image: url(img/wpp\ 3.png); margin-left: 0px;">
+            <div class="titulo" style="top: 40%;">
+                <h1>Resultados</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="servico-item" style="background-color: transparent;">
+                        <img src="img/resultado 1.png" alt="resultado">
+                        
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="servico-item"  style="background-color: transparent;">
+                        <img src="img/resultado 2.png" alt="resultado">
+                        
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="servico-item"  style="background-color: transparent;">
+                        <img src="img/resultado 3.png" alt="resultado">
+                    </div>
+                </div>
+                <div class="text-sobre">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                    <h2 class="h2-sobre"wsww>Confira os resultados</h2>
+                    <p class="p-sobre" style="font-weight: bolder;">OFEREÇO PROCEDIMENTOS COM AVALIAÇÃO PERSONALIZADA PARA GARANTIR UM RESULTADO NATURAL E AUTÉNTICO!</p>
+                </div>
+            </div>
+        </section>
+        <div>
+        <section class="contatos" id="contatos">
+            <div class="titulo">
+                <h1>Contatos</h1>
+            </div>
+            <a href="https://wa.me/51986511991" target="_blank" class="cont-whats"><i class="fa-brands fa-whatsapp fa-4x"></i></a>
+            <a href="https://www.instagram.com/fofobarber/" target="_blank" class="cont-insta"><i class="fa-brands fa-instagram fa-4x"></i></a>
+            <a href="https://facebook.com/nao sei o facebook do fofo" target="_blank" class="cont-face"><i class="fa-brands fa-facebook fa-4x"></i></a>
+        </section>    
+</body>
+<footer>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.055197173161!2d-51.095836299999995!3d-29.949090899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951973fd88d992ad%3A0xa2f52412e153aaba!2sAv.%20Gen.%20Flores%20da%20Cunha%2C%201891%20-%20Vila%20Bom%20Principio%2C%20Cachoeirinha%20-%20RS%2C%2094910-003!5e0!3m2!1spt-BR!2sbr!4v1718646421564!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <hr>
+    <h4 style="font-weight: bold; font-size: 20px;">Desenvolvido por Nícolas Bopsin e Felipe Mendes</h4>
+</footer>
+
+</html>
