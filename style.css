@@ -171,7 +171,7 @@ header {
 }
 .botao_agendar:hover{
     transition: 0.5s;
-    background-color: #FFFF00;
+    background-color: #695d4f;
 }
 .agendar {
     margin-right: 1%;
@@ -222,6 +222,10 @@ footer {
     height: 92%;
     
 }
+.imagens{
+    max-width: 100px;
+    height: 50px;
+}
 .titulo-servico{
     font-size: 1.2rem;
     color: whitesmoke;
@@ -252,21 +256,13 @@ h1, .h1-nome{
     display: flex;
     justify-content:space-evenly ;
 }
-.h2-avaliacao{
-    color: black;
-    background-color: #ffc222;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-}
 .cont-whats{
     color: #369b22;
 }
 .cont-insta{
     color: #de175d;
 }
-.cont-face{
-    color: #3b5998;
-}
+
 .contatos a :hover{
     transition: 0.8s;
     color: white;
@@ -699,7 +695,7 @@ iframe{
    
 }
 
-@media (min-width: 400px) and (max-width: 599px) {
+@media (min-width: 400px) and (max-width: 600px) {
     .container-bloco {
         width: 50%;
         height: 80%;
@@ -711,17 +707,20 @@ iframe{
         font-size: 70%;
     }
     .container-bloco p {
-        font-size: 50%;
+        font-size: 70%;
     }
     .cta-button {
         margin-top: 0;
-        font-size: 40%;
         width: auto;
-        
 }
-.cta-button .fa-whatsapp {
-    font-size: 10px; 
+
+.cta-button h3{
+    
+    font-size: 15px;
+    font-weight: bolder;
+    
 }
+
 
 }
 @media (min-width: 539px) and (max-width: 540px) {
@@ -767,7 +766,53 @@ iframe{
     }
 }
 
-@media (min-width: 300px) and (max-width: 779px) {
+@media (min-width: 300px) and (max-width: 515px) {
+    .container-bloco {
+        position: absolute;
+        width: 50%;
+        height: 90%;
+        margin-left: 60px;
+        top: 50%;
+    }
+
+    
+    .container-bloco p {
+        font-size: 13px;
+        font-weight: bold;
+        font-family:siteEsteticaBold
+    }
+    .container-bloco h1 {
+        font-size: 15px;
+        font-weight: bold;
+        font-family:siteEsteticaBold
+    }
+    .cta-button h3{
+        font-size: 10px;
+        font-weight: bold;
+        font-family:siteEsteticaBold ;
+    }
+    
+    .cta-button {
+        display: flex;
+        position: absolute;
+        bottom: 10px; 
+        left: 5px; 
+        font-size: 0.6em;
+        width: 150px;
+        height: 30px; 
+        padding: 8px;
+    }
+    
+    .cta-button .fa-whatsapp {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    
+    
+    
+    
+}
+@media (min-width: 515px) and (max-width: 515px) {
     .container-bloco {
         position: absolute;
         width: 50%;
