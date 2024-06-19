@@ -19,21 +19,24 @@
         <div class="logo"><img src="img/logo.png"alt="logo"></div>
         <div class="menu">
             <a href="#sobre">Sobre</a>
-            <a href= "#servicos">Clinica</a>
+            <a href= "#clinica">Clinica</a>
             <a href= "#servicos">Procedimentos</a>
-            <a href="#avaliacoes">Resultados</a>
+            <a href="#resultados">Resultados</a>
         </div>
         <div class="agendar">
-            <button class="botao_agendar" href="https://wa.me/51986511991">Agende</button>
+            <a href="https://wa.me/51986511991" target="_blank">
+                <button class="botao_agendar">Agende</button>
+            </a>
             <button class="abrir-nav" id="botaoNav"><i class="fa-solid fa-bars" style="color: whitesmoke;"></i></button>
         </div>
     </header>
     
     <nav class="nav-bar" id="navBar">
     <a href="#sobre"><span class="icon-text"><i class="fa fa-info-circle"></i><span class="nav-text">Sobre</span></span></a>
+    <a href="#clinica"><span class="icon-text"><i class="fa fa-info-circle"></i><span class="nav-text">Clinica</span></span></a>
     <a href="#servicos"><span class="icon-text"><i class="fa fa-cogs"></i><span class="nav-text">Procedimentos</span></span></a>
-    <a href="#avaliacoes"><span class="icon-text"><i class="fa fa-star"></i><span class="nav-text">Resultados</span></span></a>
-    <a href="#contatos"><span class="icon-text"><i class="fa fa-envelope"></i><span class="nav-text">Contatos</span></span></a>
+    <a href="#resultados"><span class="icon-text"><i class="fa fa-star"></i><span class="nav-text">Resultados</span></span></a>
+    
 </nav>   
         <div id="wpp">
                 <div>
@@ -49,36 +52,36 @@
                       </div>
                 </div>
         </div>
-        <div class="titulo">
+        <div class="titulo"  id="clinica">
             <h1>Clínica</h1>
         </div>
         <div class="subtitle">
             <p style="font-size: 22px; font-weight: bolder;">Conheça o local onde você será atendido(a)</p>
           </div>
         <div class="container">
-        <div class="servicos" id="servicos">
+        <div class="servicos">
             <div class="row">
                 <div class="col">
                     <div class="servico-item">
-                        <img src="img/clinica 1.png" alt="Cabelo">
+                        <img class="imagens" src="img/clinica 1.png" alt="Cabelo">
                         <div class="titulo-servico">Rejuvenescedor</div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="servico-item">
-                        <img src="img/clinica 2.png" alt="Sobrancelha">
+                        <img class="imagens" src="img/clinica 2.png" alt="Sobrancelha">
                         <div class="titulo-servico">Moderno</div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="servico-item">
-                        <img src="img/clinica 3.png" alt="Barba">
+                        <img class="imagens" src="img/clinica 3.png" alt="Barba">
                         <div class="titulo-servico">Acolhedor</div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="servico-item">
-                        <img src="img/clinica 4.jpg" alt="Esfoliação">
+                        <img class="imagens" src="img/clinica 4.jpg" alt="Esfoliação" >
                         <div class="titulo-servico">Convidativo</div>
                     </div>
                 </div>
@@ -90,8 +93,6 @@
               </div>
         </div>
     </div>
-
-
     <section class="sobre" id="sobre">
         <img src="img/clarice.png" alt="" class="img-sobre">
         <div class="text-sobre">
@@ -101,59 +102,59 @@
             <p class="p-sobre">Meu objetivo é realçar a beleza com naturalidade e gerenciar o processo do envelhecimento, melhorando a autoestima e motivando o meu paciente para o autocuidado.</p>
         </div>
     </section>
-    <div class="titulo">
-        <h1>Serviços</h1>
+    <div class="titulo" id="servicos">
+        <h1>Procedimentos</h1>
     </div> 
     <div class="container">
-    <div class="servicos" id="servicos">
+    <div class="servicos" >
         <div class="row">
             <div class="col-md-3">
                 <div class="servico-item">
-                    <img src="img/cabelo 100.jpg" alt="Cabelo">
-                    <div class="titulo-servico">Cabelo</div>
+                    <img class="imagens" src="img/1.jpeg" alt="Cabelo">
+                    <div class="titulo-servico">Alongamento de unhas</div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="servico-item">
-                    <img src="img/sobrancelha.png" alt="Sobrancelha">
-                    <div class="titulo-servico">Sobrancelha</div>
+                    <img class="imagens" src="img/2.jpeg" alt="Limpeza de pele">
+                    <div class="titulo-servico">Limpeza de pele</div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="servico-item">
-                    <img src="img/barba.jpg" alt="Barba">
-                    <div class="titulo-servico">Barba</div>
+                    <img class="imagens" src="img/3.jpeg" alt="Alongamento de cilios">
+                    <div class="titulo-servico">Alongamento de cilios</div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="servico-item">
-                    <img src="img/esfoliacao.jpeg" alt="Esfoliação">
-                    <div class="titulo-servico">Esfoliação</div>
+                    <img class="imagens" src="img/4 (2).jpg" alt="Detox Facil">
+                    <div class="titulo-servico">Detox Facil</div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="servico-item">
-                    <img src="img/esfoliacao.jpeg" alt="Esfoliação">
-                    <div class="titulo-servico">Esfoliação</div>
+                    <img class="imagens" src="img/5.jpeg" alt="SkinBooster">
+                    <div class="titulo-servico">SkinBooster</div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="servico-item">
-                    <img src="img/esfoliacao.jpeg" alt="Esfoliação">
-                    <div class="titulo-servico">Esfoliação</div>
+                    <img class="imagens" src="img/6.jpeg" alt="Peeling">
+                    <div class="titulo-servico">Peeling</div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="servico-item">
-                    <img src="img/esfoliacao.jpeg" alt="Esfoliação">
-                    <div class="titulo-servico">Esfoliação</div>
+                    <img class="imagens" src="img/7.jpeg" alt="Revitalização Facial">
+                    <div class="titulo-servico">Revitalização Facial</div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-        <section class="servicos" id="resultados" style="background-image: url(img/wpp\ 3.png); margin-left: 0px;">
-            <div class="titulo" style="top: 40%;">
+        <section class="servicos"  style="background-image: url(img/wpp\ 3.png); margin-left: 0px;">
+            <div class="titulo" style="top: 40%;" id="resultados">
                 <h1>Resultados</h1>
             </div>
             <div class="row">
@@ -175,28 +176,10 @@
                     </div>
                 </div>
                 <div class="text-sobre">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    
                     <h2 class="h2-sobre"wsww>Confira os resultados</h2>
                     <p class="p-sobre" style="font-weight: bolder;">OFEREÇO PROCEDIMENTOS COM AVALIAÇÃO PERSONALIZADA PARA GARANTIR UM RESULTADO NATURAL E AUTÉNTICO!</p>
+                    <hr>
+                    <p class="p-sobre" style=" font-size: 18px; text-align: center;">Com mais de <strong>1000 Clientes </strong>satisfeitos, estou comprometida em superar expectativas e garantir resultados expecionais!</p>
                 </div>
             </div>
         </section>
@@ -206,8 +189,7 @@
                 <h1>Contatos</h1>
             </div>
             <a href="https://wa.me/51986511991" target="_blank" class="cont-whats"><i class="fa-brands fa-whatsapp fa-4x"></i></a>
-            <a href="https://www.instagram.com/fofobarber/" target="_blank" class="cont-insta"><i class="fa-brands fa-instagram fa-4x"></i></a>
-            <a href="https://facebook.com/nao sei o facebook do fofo" target="_blank" class="cont-face"><i class="fa-brands fa-facebook fa-4x"></i></a>
+            <a href="https://www.instagram.com/clariceesteticista/" target="_blank" class="cont-insta"><i class="fa-brands fa-instagram fa-4x"></i></a>
         </section>    
 </body>
 <footer>
